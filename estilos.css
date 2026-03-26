@@ -1,0 +1,44 @@
+/* Configuración General */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #050805;
+}
+
+/* Imagen Principal de Fondo */
+.header-principal {
+    position: relative; 
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("Naturaleza.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Bloque de Título Centrado */
+.titulos {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 3px 6px 6px black;
+}
+
+.titulos h1 {/*PORTAFOLIO*/
+    font-size: 3rem;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+/* Línea Divisoria */
+.linea-total {
+    width: 100vw;
+    border: 0;
+    border-top: 2px solid white;
+    top: 25px;
+}
